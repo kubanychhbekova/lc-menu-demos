@@ -13,24 +13,108 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+
     <link rel="javascript" href="./js/script.js">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="./css/media.css">
 
 </head>
 <body>
 
 <main id="main">
     <div class="sidebar">
-        <a href="#">LC - RESTAURANTS</a>
-        <nav>
+        <a href="#">LC -RE<span>STAURANTS</span></a>
+        <nav class="sidebar-title">
+            <div class="sidebars">
+                <button>
+                    <img src="./img/traced.svg" alt="" class="traced">
+                    <h1>Orders</h1>
+                    <img src="./img/Ellipse%205.svg" alt="" class="ellipse-img">
+                </button>
+            </div>
 
+            <div class="pending">
+                <img src="./img/clock.svg" alt="" class="clock">
+                <h1>Pending</h1>
+                <img src="./img/Ellipse%202.svg " alt="" class="ellipse-img1">
+            </div>
+            <div class="accepted">
+                <img src="./img/arrow.svg" alt="" class="arrow">
+                <h1>Accepted</h1>
+                <img src="./img/Ellipse%203.svg" alt="" class="ellipse-img2">
+            </div>
+            <div class="ready">
+                <img src="./img/mean.svg" alt="" class="mean">
+                <h1>Ready</h1>
+                <img src="./img/Ellipse%204.svg" alt="" class="ellipse-img3">
+            </div>
+            <div class="Waiter">
+                <img src="./img/notivication.svg" alt="" class="notivication">
+                <h1>Waiter</h1>
+            </div>
+            <div class="menu">
+                <img src="./img/book.svg" alt="" class="menu-img">
+                <h1>Menu</h1>
+            </div>
+            <div class="tip">
+                <img src="./img/tip.svg" alt="" class="tip-img">
+                <h1>Tip</h1>
+            </div>
+            <div class="Log">
+                <img src="./img/icon.png" alt="" class="Log-img">
+                <h1>Log out</h1>
+            </div>
         </nav>
     </div>
-    <div class="main-right">
-        <header>
 
-        </header>
+
+    <div class="main-right">
+      <header id="header">
+          <div class="header">
+<div class="header-top">
+    <h1>Order Page</h1>
+    <div class="header-top-right">
+        <div class="top-right1">
+            <select>
+                <option>
+                    Table №
+                </option>
+            </select>
+           <div class="right1-icon">
+               <ion-icon name="search-outline"></ion-icon>
+           </div>
+        </div>
+        <div class="top-right1">
+            <select>
+                <option>
+                    Order №
+                </option>
+            </select>
+           <div class="right1-icon">
+               <ion-icon name="search-outline"></ion-icon>
+           </div>
+            <div class="right1-icon2">
+                <ion-icon name="help-circle-outline"></ion-icon>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="header-a">
+    <a href="#">1 table</a>
+    <a href="#">2table</a>
+    <a href="#">5table</a>
+    <a href="#">12table</a>
+    <a href="#">16table</a>
+    <a href="#">11table</a>
+
+
+</div>
+            
+          </div>
+      </header>
+
         <div id="orders">
             <div class="orders">
                 <h1 class="order-h1">Orders</h1>

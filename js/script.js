@@ -15,3 +15,4 @@ modalBtn.addEventListener('click',() =>{
 closeModal.addEventListener('click',() =>{
     document.querySelector('.modal').style.display = 'none'
 })
+
