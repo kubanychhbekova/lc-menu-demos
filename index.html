@@ -6,26 +6,198 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LC-MENU</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
 <main id="main">
     <div class="sidebar">
-        <a href="#">LC - RESTAURANTS</a>
-        <nav>
+        <a href="#">LC -RE<span>STAURANTS</span></a>
+        <nav class="sidebar-title">
+        <div class="sidebars">
+            <button>
+                <img src="./img/traced.svg" alt="" class="traced">
+                <h1>Orders</h1>
+                <img src="./img/Ellipse%205.svg" alt="" class="ellipse-img">
+            </button>
+        </div>
 
+        <div class="pending">
+            <img src="./img/clock.svg" alt="" class="clock">
+            <h1>Pending</h1>
+            <img src="./img/Ellipse%202.svg " alt="" class="ellipse-img1">
+        </div>
+        <div class="accepted">
+            <img src="./img/arrow.svg" alt="" class="arrow">
+            <h1>Accepted</h1>
+            <img src="./img/Ellipse%203.svg" alt="" class="ellipse-img2">
+        </div>
+        <div class="ready">
+            <img src="./img/mean.svg" alt="" class="mean">
+            <h1>Ready</h1>
+            <img src="./img/Ellipse%204.svg" alt="" class="ellipse-img3">
+        </div>
+        <div class="Waiter">
+            <img src="./img/notivication.svg" alt="" class="notivication">
+            <h1>Waiter</h1>
+        </div>
+        <div class="menu">
+            <img src="./img/book.svg" alt="" class="menu-img">
+            <h1>Menu</h1>
+        </div>
+        <div class="tip">
+            <img src="./img/tip.svg" alt="" class="tip-img">
+            <h1>Tip</h1>
+        </div>
+        <div class="Log">
+            <img src="./img/Icon.svg" alt="" class="Log-img">
+            <h1>Log out</h1>
+        </div>
         </nav>
     </div>
-    <div>
-        <header>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                 <div class="header-title">
+                     <h1>Order Page</h1>
+                 </div>
+                <select>
+                    <option></option>
+                </select>
+                <button class="header-btn">
+                    <p>Table №</p>
+                </button>
+                <button class="header-icon">
+                    <img src="./img/Icon.svg" alt="">
+                </button>
+<div class="select">
+    <select>
+        <option></option>
+    </select>
+</div>
+                <button class="header-btn1">
+                    <p>Order №</p>
+                </button>
+                <button class="header-icon1">
+                    <img src="./img/Icon.svg" alt="">
+                </button>
+                <div class="ellipses">
+                    <img src="./img/Ellipses%201.svg" alt="">
+                    <h3>?</h3>
+                </div>
+            </div>
+        </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                1 table
+                            </button>
+                        </a>
+                        </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                2 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                5 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                12 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                16 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                11 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                7 table
+                            </button>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><div class="menus">
+                        <a href="#">
+                            <button>
+                                13 table
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-        </header>
-        <section id="orders">
+
+
+
+
+</div>
+                    </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="">
 
         </section>
-    </div>
 </main>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
