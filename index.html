@@ -6,7 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LC-MENU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="javascript" href="./js/script.js">
     <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 <body>
 
@@ -17,15 +27,270 @@
 
         </nav>
     </div>
-    <div>
+    <div class="main-right">
         <header>
 
         </header>
         <section id="orders">
+            <div class="orders">
+                <h1 class="order-h1">Orders</h1>
+                <div class="orders-cards">
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/Rectangle%2056.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Spider-Man</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№5</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo2.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Batman</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№7</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo3.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Yellow</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№11</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo4.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>One</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№4</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo5.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Pikachu</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№21</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo6.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Three</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№32</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo7.png" alt="img">
+                            <div class="card-top-text">
+                                <h1>Purple</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№20</h1>
+                            <button class="modal-btn">View</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-top">
+                            <img src="./img/logo8.jpg" alt="img">
+                            <div class="card-top-text">
+                                <h1>Naruto</h1>
+                                <p>12:57</p>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <h1>№1</h1>
+                            <a href="#">
+                                <button class="modal-btn">View</button>
+                            </a>
+                        </div>
+                    </div>
 
+
+                </div>
+            </div>
+            <section id="modal">
+                <div class="modal-content">
+                    <div class="modal-top">
+                        <div class="modal-top-left">
+                            <img src="./img/Rectangle%2056.png" alt="">
+                            <div class="modal-top-text">
+                                <h3>Spider-Man</h3>
+                                <h1>№5</h1>
+                            </div>
+                        </div>
+                        <button class="close-btn">Close X</button>
+
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="modal-card">
+                                    <img src="./img/modal-logo.png" alt="">
+                                    <h1 class="h1-1">Salmon fillet with salad</h1>
+                                    <div class="modal-title">
+                                        <h1 class="h1-2">$34.00</h1>
+                                        <div class="icon">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                        </div>
+                                        <h1 class="hh1-3">15min</h1>
+                                    </div>
+                                    <div class="modal-title-btn">
+                                        <a href="#">Size: <span>Medium</span></a>
+                                        <a href="#">More: <span>Cheese, look, ketchup</span></a>
+                                        <a href="#">Without: <span> Tomato, potato</span></a>
+                                        <a href="#">Comment: <span>Fry the meat a little</span></a>
+                                        <p>Ordered at 12:56</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="modal-card">
+                                    <img src="./img/modal-logo.png" alt="">
+                                    <h1 class="h1-1">Salmon fillet with salad</h1>
+                                    <div class="modal-title">
+                                        <h1 class="h1-2">$34.00</h1>
+                                        <div class="icon">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                        </div>
+                                        <h1 class="hh1-3">15min</h1>
+                                    </div>
+                                    <div class="modal-title-btn">
+                                        <a href="#">Size: <span>Medium</span></a>
+                                        <a href="#">More: <span>Cheese, look, ketchup</span></a>
+                                        <a href="#">Without: <span> Tomato, potato</span></a>
+                                        <a href="#">Comment: <span>Fry the meat a little</span></a>
+                                        <p>Ordered at 12:56</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="modal-card">
+                                    <img src="./img/modal-logo.png" alt="">
+                                    <h1 class="h1-1">Salmon fillet with salad</h1>
+                                    <div class="modal-title">
+                                        <h1 class="h1-2">$34.00</h1>
+                                        <div class="icon">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                        </div>
+                                        <h1 class="hh1-3">15min</h1>
+                                    </div>
+                                    <div class="modal-title-btn">
+                                        <a href="#">Size: <span>Medium</span></a>
+                                        <a href="#">More: <span>Cheese, look, ketchup</span></a>
+                                        <a href="#">Without: <span> Tomato, potato</span></a>
+                                        <a href="#">Comment: <span>Fry the meat a little</span></a>
+                                        <p>Ordered at 12:56</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="modal-card">
+                                    <img src="./img/modal-logo.png" alt="">
+                                    <h1 class="h1-1">Salmon fillet with salad</h1>
+                                    <div class="modal-title">
+                                        <h1 class="h1-2">$34.00</h1>
+                                        <div class="icon">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                        </div>
+                                        <h1 class="hh1-3">15min</h1>
+                                    </div>
+                                    <div class="modal-title-btn">
+                                        <a href="#">Size: <span>Medium</span></a>
+                                        <a href="#">More: <span>Cheese, look, ketchup</span></a>
+                                        <a href="#">Without: <span> Tomato, potato</span></a>
+                                        <a href="#">Comment: <span>Fry the meat a little</span></a>
+                                        <p>Ordered at 12:56</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="modal-card">
+                                    <img src="./img/modal-logo.png" alt="">
+                                    <h1 class="h1-1">Salmon fillet with salad</h1>
+                                    <div class="modal-title">
+                                        <h1 class="h1-2">$34.00</h1>
+                                        <div class="icon">
+                                            <ion-icon name="time-outline"></ion-icon>
+                                        </div>
+                                        <h1 class="hh1-3">15min</h1>
+                                    </div>
+                                    <div class="modal-title-btn">
+                                        <a href="#">Size: <span>Medium</span></a>
+                                        <a href="#">More: <span>Cheese, look, ketchup</span></a>
+                                        <a href="#">Without: <span> Tomato, potato</span></a>
+                                        <a href="#">Comment: <span>Fry the meat a little</span></a>
+                                        <p>Ordered at 12:56</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="modal-bottom">
+                       <div class="modal-bottom-left">
+                           <select>
+                               <option>
+                                   Preparing time...
+                               </option>
+                           </select>
+                           <button class="btn1">Accept and Send</button>
+                       </div>
+                        <button class="btn2">Cancel this order</button>
+                    </div>
+                </div>
+            </section>
         </section>
     </div>
+
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="./js/script.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
