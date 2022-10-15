@@ -7,7 +7,11 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 let modalBtn = document.querySelector(".modal-btn")
+let closeModal = document.querySelector(".close-btn")
 
 modalBtn.addEventListener('click',() =>{
-    document.querySelector('#modal').style.display = 'block'
+    document.querySelector('.modal').style.display = 'block'
+})
+closeModal.addEventListener('click',() =>{
+    document.querySelector('.modal').style.display = 'none'
 })
