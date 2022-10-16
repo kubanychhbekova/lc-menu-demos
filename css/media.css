@@ -12,13 +12,39 @@
     }
 
     .ellipse-img2 {
-margin-left: 30px;
+        margin-left: 30px;
     }
+
     .ellipse-img3 {
-margin-left: 55px;
+        margin-left: 55px;
     }
+
     .header-a {
         flex-wrap: wrap;
     }
+
+    /*.modal-content {*/
+
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    font-size: 300px;*/
+    /*    width: 50%;*/
+    /*}*/
 }
-@media (max-width: )
+
+@media (max-width: 390px) {
+main{
+    width: 90%;
+
+}
+    #main .sidebar {
+        display: none;
+    }
+    .sidebar-title {
+        display: none;
+    }
+    .sidebars {
+        display: none;
+    }
+}
